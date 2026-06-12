@@ -4,7 +4,9 @@
 using namespace std;
 int t[6][7];
 int n;
+int m;
 int main() {
+    while(m<4){
     cin>>n;
     t[5][n-1]=1;
 
@@ -24,9 +26,8 @@ int main() {
 
 
 
-    
-
-
+    }
     return 0;
 }
+
 
